@@ -1,0 +1,1 @@
+<script>document.addEventListener('DOMContentLoaded',()=>{const sidebar=document.querySelector('.hextra-sidebar-container');if(!sidebar)return;const sync=()=>{sidebar.inert=sidebar.getAttribute('aria-hidden')==='true'};sync();new MutationObserver(sync).observe(sidebar,{attributes:true,attributeFilter:['aria-hidden']})});</script>

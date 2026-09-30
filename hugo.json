@@ -1,0 +1,109 @@
+{
+  "baseURL": "https://cordherald39.github.io/clash-hextra/",
+  "languageCode": "zh-CN",
+  "defaultContentLanguage": "zh-cn",
+  "hasCJKLanguage": true,
+  "title": "Clash 使用手册",
+  "theme": "hextra",
+  "enableRobotsTXT": true,
+  "disableKinds": [
+    "taxonomy",
+    "term"
+  ],
+  "outputs": {
+    "home": [
+      "HTML",
+      "RSS"
+    ],
+    "section": [
+      "HTML",
+      "RSS"
+    ],
+    "page": [
+      "HTML"
+    ]
+  },
+  "markup": {
+    "goldmark": {
+      "renderer": {
+        "unsafe": true
+      }
+    },
+    "highlight": {
+      "noClasses": false
+    }
+  },
+  "menu": {
+    "main": [
+      {
+        "name": "下载",
+        "pageRef": "/downloads",
+        "weight": 1
+      },
+      {
+        "name": "手机版",
+        "pageRef": "/mobile",
+        "weight": 2
+      },
+      {
+        "name": "电脑版",
+        "pageRef": "/desktop",
+        "weight": 3
+      },
+      {
+        "name": "教程",
+        "pageRef": "/tutorials",
+        "weight": 4
+      },
+      {
+        "name": "博客",
+        "pageRef": "/blog",
+        "weight": 5
+      },
+      {
+        "name": "关于",
+        "pageRef": "/about",
+        "weight": 6
+      }
+    ]
+  },
+  "params": {
+    "description": "Clash 官网入口导航、手机与电脑下载、订阅配置教程和故障排查。",
+    "author": {
+      "name": "Clash 编辑组"
+    },
+    "defaultTheme": "light",
+    "disableThemeToggle": false,
+    "ShowReadingTime": true,
+    "ShowBreadCrumbs": true,
+    "ShowPostNavLinks": true,
+    "ShowToc": true,
+    "TocOpen": true,
+    "mainSections": [
+      "blog"
+    ],
+    "homeInfoParams": {
+      "Title": "Clash 下载与使用笔记",
+      "Content": "从手机和电脑的安装包选择，到订阅导入、规则设置与故障排查。下载入口直达开发者项目。"
+    },
+    "navbar": {
+      "displayTitle": true,
+      "displayLogo": false
+    },
+    "footer": {
+      "displayCopyright": true,
+      "displayPoweredBy": true
+    },
+    "theme": {
+      "default": "light",
+      "displayToggle": true
+    },
+    "search": {
+      "enable": true,
+      "type": "flexsearch"
+    },
+    "page": {
+      "width": "normal"
+    }
+  }
+}

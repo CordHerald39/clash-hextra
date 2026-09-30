@@ -1,5 +1,5 @@
 ---
-title: Clash 下载：手机版、电脑版与使用教程
+title: Clash 中文文档｜安装、订阅与使用教程
 description: 按设备找到 Clash 开发者下载入口，阅读手机版、电脑版配置步骤与故障排查。
 layout: hextra-home
 ---

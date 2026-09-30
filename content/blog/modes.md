@@ -30,3 +30,5 @@
 部分应用不读取系统代理；TUN 需要结合客户端和系统权限设置。Android 中的应用名单也会改变哪些程序进入 VPN。不要因为模式写着“全局”便推断手机或电脑上的全部流量都已接管。
 
 资料：[Clash Verge Rev 快速入门](https://www.clashverge.dev/guide/quickstart.html)、[Mihomo 配置说明](https://wiki.metacubex.one/config/)。[博客目录]({{< relref "blog" >}})还收录订阅与升级维护文章。
+
+进一步阅读：[Clash 规则模式与流量接管：用同一次请求分别验证](../rule-capture-check/)。
